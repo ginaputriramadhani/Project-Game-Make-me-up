@@ -3,64 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make Me Up!</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Make Me Up!</title> <!--judul pada tab browser-->
+    <link rel="stylesheet" href="style.css"> <!--Mmenghubungkan file html dgn file css-->
 </head>
 <body>
     <header>
+        <!--header untuk judul dan deskripsi web-->
         <h1>Make Me Up!</h1>
         <p>Create your own look</p>
     </header>
 
     <main>
+        <!--start screen untuk halaman awal permainan-->
         <section>
-            <img src="" alt="Karakter Game">
-            <button type="button">START</button>
+            <img src="cover game.png" alt="Karakter Game">
+            <button type="button">START</button> <!--tombol utk mulai-->
         </section>
-
+        <!--makeup screen untuk pengguna memilih makeup-->
         <section id="makeup-screen">
             <h2>Create Your Look</h2>
             <p>STEP 1 OF 3</p>
             <article>
+                <!--menampilkan karakter tanpa makeup pada awal tahap-->
                 <img id="karakter-makeup" src="base.png" alt="karakter tanpa makeup">
                 <h3>Makeup</h3>
-                <button type="button" data-makeup="soft-pink">Soft Pink</button>
-                <button type="button" data-makeup="soft-red">Soft Red Glam</button>
+                <!--tombol pilihan makeup-->
+                <button type="button" data-makeup="soft-pink">Soft Pink</button> <!--tombol pilih soft pink-->
+                <button type="button" data-makeup="soft-red">Soft Red Glam</button> <!--tombol pilih soft red-->
             </article>
         </section>
 
+        <!--hair screen untuk pengguna memilih gaya rambut-->
         <section id="hair-screen">
             <h2>Create Your Hair</h2>
             <p>STEP 2 OF 3</p>
             <article>
+                <!--menampilkan karakter dgn gaya rambut yang dipilih-->
                 <img id="karakter-hair" src="base.png" alt="karakter tanpa rambut">
                 <h3>Hair Style</h3>
-                <button type="button" data-hair="long">Hair Down</button>
-                <button type="button" data-hair="short">High Bun</button>
+                <button type="button" data-hair="long">Hair Down</button> <!--tombol rambut terurai-->
+                <button type="button" data-hair="short">High Bun</button> <!--tombol rambut ikat-->
             </article>  
         </section>
 
+        <!--outfit screen untuk pengguna memilih outfit-->
         <section id="outfit-screen">
             <h2>Create Your Outfit</h2>
             <p>STEP 3 OF 3</p>
             <article>
+                <!--menampilkan karakter dgn outfit yang dipilih-->
                 <img id="karakter-outfit" src="base.png" alt="karakter dengan outfit yang dipilih">
                 <h3>Outfit</h3>
-                <button type="button" data-outfit="pink">Pink Outfit</button>
-                <button type="button" data-outfit="red">Red Outfit</button>
+                <button type="button" data-outfit="pink">Pink Outfit</button> <!--tombol outfit pink-->
+                <button type="button" data-outfit="red">Red Outfit</button><!--tombol outfit red-->
             </article>
         </section>
 
+        <!--menampilkan hasil akhir pilihan pengguna-->
         <section id="result-screen">
             <h2>Your Final Look!</h2>
             <article>
+                <!--menampilkan hasil akhir karakter-->
                 <img id="karakter-hair" src="base.png" alt="Hasil alhir karakter">
                 <h3>Your Look</h3>
-                <button type="button" id="play-again">Play Again</button>
-                <button type="button" id="home-button">Home</button>
+                <button type="button" id="play-again">Play Again</button> <!--mengulang dari tahap makeup-->
+                <button type="button" id="home-button">Home</button><!--kembali ke halaman awal-->
             </article>
         </section>
     </main>
     
+<footer>
+    
+</footer>
 </body>
 </html>
