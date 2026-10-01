@@ -26,3 +26,17 @@ header p {
     margin: 5px 0;
     font-size: 16px;
 }
+
+/* mengatur tampilan start screen */
+#start-screen {
+    min-height: 500px; /*atur tinggi minimum start screen*/
+    display: flex; /*gunakan flexbox untuk mengatur posisi elemen*/
+    flex-direction: column; /* menyusun elemen dari atas ke bawah*/
+    align-items: center; /*atur elemen ada ditengah secara horizontal*/
+    justify-content: center; /*atur elemen ada ditengah secara vertikal*/
+    gap: 20px; /*kasi jarak antar elemen*/
+}
+
+/*atur ukuran karakter pada start screen*/
+#start
+
