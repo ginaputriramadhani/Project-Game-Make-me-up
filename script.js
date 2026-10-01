@@ -78,7 +78,7 @@ hairDownButton.addEventListener("click", function() {
     // cek makeup yang  sebelumnya dipilih
     if (selectedMakeup === "soft-pink") {
         //ubah tampilan karakter sesuai pilihan hair dan makeup
-        document.getElementById("karakter-result").src = "softpink, long.png";
+        document.getElementById("karakter-outfit").src = "softpink, long.png";
         // menyimpan pilihan hair
         selectedHair = "long";
         // sembunyikan hair screen
@@ -89,7 +89,7 @@ hairDownButton.addEventListener("click", function() {
         document.getElementById("karakter-outfit").src = "softpink, long.png";    
     } else {
         //ubah tampilan karakter sesuai pilihan hair dan makeup
-        document.getElementById("karakter-result").src = "softglam, long.png";
+        document.getElementById("karakter-outfit").src = "softglam, long.png";
         // menyimpan pilihan hair
         selectedHair = "long";
         // sembunyikan hair screen
@@ -100,3 +100,37 @@ hairDownButton.addEventListener("click", function() {
         document.getElementById("karakter-outfit").src = "softglam, long.png";
     }
 });
+
+
+//BAGIAN HIGH BUN
+// ambil tombol high bun
+const highBunButton = document.querySelector('[data-hair="short"]');
+
+// jalankan fungsi saat tombol high bun diklik
+highBunButton.addEventListener("click", function() {
+    // cek makeup yang  sebelumnya dipilih
+    if (selectedMakeup === "soft-pink") {
+        //ubah tampilan karakter sesuai pilihan hair dan makeup
+        document.getElementById("karakter-outfit").src = "softpink, short.png";
+        // menyimpan pilihan hair
+        selectedHair = "short";
+        // sembunyikan hair screen
+        hairScreen.style.display = "none";
+        // tampilkan outfit screen
+        outfitScreen.style.display = "block";
+        // bawa tampilan soft pink dan high bun ke outfit screen
+        document.getElementById("karakter-outfit").src = "softpink, short.png";    
+    } else {
+        //ubah tampilan karakter sesuai pilihan hair dan makeup
+        document.getElementById("karakter-outfit").src = "softglam, short.png";
+        // menyimpan pilihan hair
+        selectedHair = "short";
+        // sembunyikan hair screen
+        hairScreen.style.display = "none";
+        // tampilkan outfit screen
+        outfitScreen.style.display = "block";
+        // bawa tampilan soft red glam dan high bun ke outfit screen
+        document.getElementById("karakter-outfit").src = "softglam, short.png";
+    }
+});
+
