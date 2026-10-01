@@ -134,3 +134,60 @@ highBunButton.addEventListener("click", function() {
     }
 });
 
+// BAGIAN PINK OUTFIT
+// ambil tombol pink outfit
+const pinkOutfitButton = document.querySelector('[data-outfit="pink"]');
+
+// jalankan fungsi saat tombol pink outfit diklik
+pinkOutfitButton.addEventListener("click", function() {
+    // cek makeup yang  sebelumnya dipilih
+    if (selectedMakeup === "soft-pink") {
+        //cek hair yang sebelumnya dipilih
+        if (selectedHair === "long") {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softpink, long, outpink.png";
+        } else {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softpink, short, pink outfit.png";
+        }
+        
+    } else {
+        //cek hair yang sebelumnya dipilih
+        if (selectedHair === "long") {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softglam, long, pink outfit.png";
+        } else {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softglam, short, pink outfit.png";
+        }
+    }
+});
+
+// BAGIAN RED OUTFIT
+// ambil tombol red outfit
+const redOutfitButton = document.querySelector('[data-outfit="red"]');
+
+// jalankan fungsi saat tombol red outfit diklik
+redOutfitButton.addEventListener("click", function() {
+    // cek makeup yang  sebelumnya dipilih
+    if (selectedMakeup === "soft-pink") {
+        //cek hair yang sebelumnya dipilih
+        if (selectedHair === "long") {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softpink, long, red outfit.png";
+        } else {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softpink, short, red outfit.png";
+        }
+        
+    } else {
+        //cek hair yang sebelumnya dipilih
+        if (selectedHair === "long") {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softglam, long, red outfit.png";
+        } else {
+            //ubah tampilan karakter sesuai pilihan outfit, hair, dan makeup
+            document.getElementById("karakter-result").src = "softglam, short, red outfit.png";
+        }
+    }
+});
