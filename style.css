@@ -82,4 +82,13 @@ header p {
     color: #777; /*kasi warna abu-abu ke teks*/
 }
 
-/*
+/*atur tampilan gambar karakter pada makeup screen*/
+#karakter-makeup {
+    width: 220px; /*atur lebar gambar karakter*/
+    height: auto; /*atur tinggi otomatis*/
+    display: block; /*atur gambar agar menjadi blok*/
+    margin: 0 auto 20px; /*atur jarak atas dan bawah gambar*/
+}
+
+/*atur judul pilihan makeup*/
+#makeup-screen h3 {
