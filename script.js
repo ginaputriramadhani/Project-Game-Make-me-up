@@ -203,3 +203,34 @@ redOutfitButton.addEventListener("click", function() {
     // bawa tampilan karakter ke result screen
     document.getElementById("karakter-result").src = document.getElementById("karakter-outfit").src;
 });
+
+// BAGIAN RESTART
+// ambil tombol home
+const homeButton = document.getElementById("home-button")
+
+//jalankan fungsi saat tombol home diklik
+homeButton.addEventListener("click", function() {
+    // sembunyikan result screen
+    resultScreen.style.display = "none";
+    // tampilkan start screen
+    startScreen.style.display = "flex";
+    //tampilkan header
+    header.style.display = "block";
+})
+
+//ambil tombol play again
+const playAgainButton = document.getElementById("play-again")
+
+//jalankan fungsi saat tombol play again diklik
+playAgainButton.addEventListener("click", function() {
+    // kosongkan pilihan makeup dan hair
+    selectedMakeup = "";
+    selectedHair = "";
+    // sembunyikan result screen
+    resultScreen.style.display = "none";
+    // tampilkan makeup screen
+    makeupScreen.style.display = "block";
+    //kembalikan tampilan karakter ke base
+    document.getElementById("karakter-makeup").src = "base.png";
+});
+
