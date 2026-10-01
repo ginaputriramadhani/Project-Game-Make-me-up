@@ -157,3 +157,54 @@ header p {
     font-size: 14px; /*atur ukuran teks tombol*/
     cursor: pointer; /*ubah bentuk kursor saat diarahkan ke tombol*/
 }
+
+
+/*TAMPILAN OUTFIT SCREEN*/
+/*atur tampilan outfit screen*/
+#outfit-screen {
+    min-height: 500px; /*atur tinggi minimum outfit screen*/
+    padding: 30px 20px; /*kasi jarak dalam outfit screen*/
+}
+
+/*atur tampilan judul outfit screen*/
+#outfit-screen h2 {
+    margin: 0;/*hilangkan jarak bawaan*/
+    color: #F48FB1; /*kasi warna pink ke judul*/
+    font-size: 30px; /*atur ukuran teks*/
+}
+
+/*atur tulisan step 1 of 3*/
+#outfit-screen p {
+    margin: 8px 0 20px; /*kasi jarak atas dan bawah*/
+    font-size: 14px; /*atur ukuran teks*/
+    color: #777; /*kasi warna abu-abu ke teks*/
+}
+
+/*atur tampilan gambar karakter pada outfit screen*/
+#karakter-outfit {
+    width: 250px; /*atur lebar gambar karakter*/
+    height: auto; /*atur tinggi otomatis*/
+    display: block; /*atur gambar agar menjadi blok*/
+    margin: 0 auto 20px; /*atur jarak atas dan bawah gambar*/
+}
+
+/*atur judul outfit*/
+#outfit-screen h3 {
+    margin: 0 0 15px; /*kasi jarak bawah*/
+    font-size: 20px; /*atur ukuran teks*/
+    color: #F48FB1; /*kasi warna pink ke judul*/
+}
+
+/*atur tampilan tombol pilihan outfit*/
+#outfit-screen button {
+    padding: 10px 25px; /*kasi ruang dalam tombol*/
+    margin: 20px; /*kasi jarak antar tombol*/
+    border: none; /*hilangkan garis tepi tombol*/
+    border-radius: 20px; /*buat sudut tombol agak membulat*/
+    background-color: #F48FB1; /*kasi warna pink ke tombol*/
+    color: white; /*kasi warna putih ke teks tombol*/
+    font-size: 14px; /*atur ukuran teks tombol*/
+    cursor: pointer; /*ubah bentuk kursor saat diarahkan ke tombol*/
+}
+
+/*TAMPILAN RESULT SCREEN*/
