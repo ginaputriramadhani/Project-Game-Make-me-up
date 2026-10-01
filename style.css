@@ -84,11 +84,27 @@ header p {
 
 /*atur tampilan gambar karakter pada makeup screen*/
 #karakter-makeup {
-    width: 220px; /*atur lebar gambar karakter*/
+    width: 250px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
     margin: 0 auto 20px; /*atur jarak atas dan bawah gambar*/
 }
 
-/*atur judul pilihan makeup*/
+/*atur judul makeup*/
 #makeup-screen h3 {
+    margin: 0 0 15px; /*kasi jarak bawah*/
+    font-size: 20px; /*atur ukuran teks*/
+    color: #F48FB1; /*kasi warna pink ke judul*/
+}
+
+/*atur tampilan tombol pilihan makeup*/
+#makeup-screen button {
+    padding: 10px 25px; /*kasi ruang dalam tombol*/
+    margin: 20px; /*kasi jarak antar tombol*/
+    border: none; /*hilangkan garis tepi tombol*/
+    border-radius: 20px; /*buat sudut tombol agak membulat*/
+    background-color: #F48FB1; /*kasi warna pink ke tombol*/
+    color: white; /*kasi warna putih ke teks tombol*/
+    font-size: 14px; /*atur ukuran teks tombol*/
+    cursor: pointer; /*ubah bentuk kursor saat diarahkan ke tombol*/
+}
