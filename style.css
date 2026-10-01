@@ -39,7 +39,18 @@ header p {
 
 /*atur ukuran karakter pada start screen*/
 #start-screen img {
-    width: 220px; /*atur lebar gambar karakter*/
+    width: 400px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
 }
 
+/*atur tampilan tombol start*/
+#start-screen button {
+    padding: 12px 50px; /*kasi ruang dalam tombol*/
+    border: none; /*hilangkan garis tepi tombol*/
+    border-radius: 25px; /* buat sudut tombol agak membulat*/
+    background-color: #F48FB1; /* kasi warna pink pd tombol*/
+    color: white; /* untuk teks berwarna putih*/
+    font-size: 16px; /*atur ukuran teks*/
+    font-weight: bold; /*buat tulisan jadi tebal*/
+    cursor: pointer; /*ubah bentuk kursoe saat diarahkan ke tombol*/
+}
