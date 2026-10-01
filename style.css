@@ -57,11 +57,6 @@ header p {
     cursor: pointer; /*ubah bentuk kursoe saat diarahkan ke tombol*/
 }
 
-/*atur tampilan tombol saat di hover*/
-#start-screen button:hover {
-    background-color: #F06292; /*ubah warna tombol saat di hover*/
-}
-
 /*TAMPILAN MAKEUP SCREEN*/
 /*atur tampilan makeup screen*/
 #makeup-screen {
@@ -253,4 +248,16 @@ header p {
     color: white; /*kasi warna putih ke teks tombol*/
     font-size: 14px; /*atur ukuran teks tombol*/
     cursor: pointer; /*ubah bentuk kursor saat diarahkan ke tombol*/
+}
+
+
+/*atur efek hover untuk semua tombol*/
+#start-screen button:hover,
+#makeup-screen button:hover,
+#hair-screen button:hover,
+#outfit-screen button:hover,
+#result-screen button:hover {
+    background-color: #F06292; /*ubah warna tombol saat di hover*/
+    transform: scale(1.05); /*buat tombol sedikit membesar saat di hover*/
+    transition: all 0.3s /*buat efek transisi halus saat di hover*/
 }
