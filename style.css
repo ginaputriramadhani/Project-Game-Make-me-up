@@ -38,5 +38,8 @@ header p {
 }
 
 /*atur ukuran karakter pada start screen*/
-#start
+#start-screen img {
+    width: 220px; /*atur lebar gambar karakter*/
+    height: auto; /*atur tinggi otomatis*/
+}
 
