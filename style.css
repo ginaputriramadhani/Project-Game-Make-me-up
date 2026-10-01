@@ -261,3 +261,61 @@ header p {
     transform: scale(1.05); /*buat tombol sedikit membesar saat di hover*/
     transition: all 0.3s /*buat efek transisi halus saat di hover*/
 }
+
+/* RESPONSIVE */
+/* atur tampilan buat di hp*/
+@media (max-width: 600px) {
+    /*atur ukuran header*/
+    header {
+        padding: 20px 15px 5px; /*atur padding header lebih kecil di hp*/
+    }
+    header h1 {
+        font-size: 30px; /*atur ukuran teks judul lebih kecil di hp*/
+    }
+
+    header p {
+        font-size: 14px; /*atur ukuran teks deskripsi lebih kecil di hp*/
+    }
+
+    /*atur ukuran karakter di cover*/
+    #start-screen img, {
+        width: 300px; /*atur lebar gambar karakter lebih kecil di hp*/
+        max-width: 90; /* atur lebar maksimum */
+    }
+
+    /*atur ukuran karakter di game
+    #karakter-makeup,
+    #karakter-hair,
+    #karakter-outfit,
+    #karakter-result {
+        width: 370px; /*atur lebar gambar karakter lebih kecil di hp*/
+        max-width: 100%; /*atur lebar maksimum gambar karakter agar tidak melebihi layar hp*/
+    }
+
+    /*atur jarak pada setiap screen*/
+    #start-screen,
+    #makeup-screen,
+    #hair-screen,
+    #outfit-screen,
+    #result-screen {
+        min-height: 650px; /*atur tinggi minimum setiap screen*/
+        padding: 25px 15px; /*atur padding lebih kecil di hp*/
+    }
+
+    /*atur ukuran teks judul pada setiap screen*/
+    #makeup-screen h2,
+    #hair-screen h2,
+    #outfit-screen h2,
+    #result-screen h2 {
+        font-size: 26px; /*atur ukuran teks judul lebih kecil di hp*/
+    }
+
+    #start-screen button,
+    #makeup-screen button,
+    #hair-screen button,
+    #outfit-screen button,
+    #result-screen button {
+        padding: 11px 22px; /*atur padding tombol lebih kecil di hp*/
+        margin: 5px 3px; /*atur margin tombol lebih kecil di hp*/
+    }
+}
