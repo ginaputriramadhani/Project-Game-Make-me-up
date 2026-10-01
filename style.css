@@ -56,3 +56,30 @@ header p {
     font-weight: bold; /*buat tulisan jadi tebal*/
     cursor: pointer; /*ubah bentuk kursoe saat diarahkan ke tombol*/
 }
+
+/*atur tampilan tombol saat di hover*/
+#start-screen button:hover {
+    background-color: #F06292; /*ubah warna tombol saat di hover*/
+}
+
+/*atur tampilan makeup screen*/
+#makeup-screen {
+    min-height: 500px; /*atur tinggi minimum makeup screen*/
+    padding: 30px 20px; /*kasi jarak dalam makeup screen*/
+}
+
+/*atur tampilan judul makeup screen*/
+#makeup-screen h2 {
+    margin: 0;/*hilangkan jarak bawaan*/
+    color: #F48FB1; /*kasi warna pink ke judul*/
+    font-size: 30px; /*atur ukuran teks*/
+}
+
+/*atur tulisan step 1 of 3*/
+#makeup-screen p {
+    margin: 8px 0 20px; /*kasi jarak atas dan bawah*/
+    font-size: 14px; /*atur ukuran teks*/
+    color: #777; /*kasi warna abu-abu ke teks*/
+}
+
+/*
