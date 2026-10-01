@@ -1,11 +1,28 @@
+/* Mengatur semua elemen agar ukuran box lebih mudah diatur */
 * {
     box-sizing: border-box;
 }
 
+/*Mengatur tampilan dasar seluruh halaman*/
 body {
+    margin: 0; /*menghilangkan jarak bawaan browser*/
+    font-family: 'Poppins', sans-serif; /*pake font Poppins*/
+    background-color: #FFF5F7;/*kasi warna pink muda ke background*/
+    color: #333; /* atur warna teks*/
+    text-align: center;/* atur teks agar rata tengah*/
+}
+
+/* styling untuk header */
+header {
+    padding: 30px 20px 10px;
+}
+
+header h1 {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #FFF5F7;
-    color: #333;
-    text-align: center;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 16px;
 }
