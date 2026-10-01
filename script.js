@@ -40,7 +40,7 @@ softPinkButton.addEventListener("click", function() {
     // simpan pilihan makeup
     selectedMakeup = "soft-pink";
     //ubah tampilan karakter sesuai pilihan makeup
-    document.getElementById("karakter-makeup").src = "soft pink.png";
+    document.getElementById("karakter-makeup").src = "softpink.png";
     // sembunyikan makeup screen
     makeupScreen.style.display = "none";
     // tampilkan hair screen
@@ -49,3 +49,25 @@ softPinkButton.addEventListener("click", function() {
     document.getElementById("karakter-hair").src = "softpink.png";
 });
 
+
+//BAGIAN MAKEUP SOFT RED GLAM
+// ambil tombol soft red glam
+const softRedGlamButton = document.querySelector('[data-makeup="soft-red"]');
+
+// jalankan fungsi saat tombol soft red glam diklik
+softRedGlamButton.addEventListener("click", function() {
+    // simpan pilihan makeup
+    selectedMakeup = "soft-red-glam";
+    //ubah tampilan karakter sesuai pilihan makeup
+    document.getElementById("karakter-makeup").src = "soft glam.png";
+    // sembunyikan makeup screen
+    makeupScreen.style.display = "none";
+    // tampilkan hair screen
+    hairScreen.style.display = "block";
+    // bawa tampilan soft red glam ke hair screen
+    document.getElementById("karakter-hair").src = "soft glam.png";
+});
+
+//BAGIAN HAIR DOWN
+// ambil tombol hair down
+const hairDownButton = document.querySelector('[data-hair="down"]');
