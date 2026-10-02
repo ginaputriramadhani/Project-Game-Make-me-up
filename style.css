@@ -6,7 +6,7 @@
 /*Mengatur tampilan dasar seluruh halaman*/
 body {
     margin: 0; /*menghilangkan jarak bawaan browser*/
-    font-family: 'Poppins', sans-serif; /*pake font Poppins*/
+    font-family: 'Inter', sans-serif; /*pake font Inter*/
     background-color: #FFF5F7;/*kasi warna pink muda ke background*/
     color: #333; /* atur warna teks*/
     text-align: center;/* atur teks agar rata tengah*/
@@ -20,13 +20,13 @@ header {
 header h1 {
     margin: 0;
     font-size: 36px;
-    font-weight: bold;
-    color: #F48FB1;
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 header p {
     margin: 5px 0;
     font-size: 16px;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 /* mengatur tampilan start screen */
@@ -41,8 +41,8 @@ header p {
 
 /*atur ukuran karakter pada start screen*/
 #start-screen img {
-    width: 400px; /*atur lebar gambar karakter*/
-    height: auto; /*atur tinggi otomatis*/
+    width: 420px;
+    height: auto; /*atur tinggi gambar*/
 }
 
 /*atur tampilan tombol start*/
@@ -50,10 +50,10 @@ header p {
     padding: 12px 50px; /*kasi ruang dalam tombol*/
     border: none; /*hilangkan garis tepi tombol*/
     border-radius: 25px; /* buat sudut tombol agak membulat*/
-    background-color: #F48FB1; /* kasi warna pink pd tombol*/
+    background-color: #FBAFC8; /* kasi warna pink pd tombol*/
     color: white; /* untuk teks berwarna putih*/
-    font-size: 16px; /*atur ukuran teks*/
-    font-weight: bold; /*buat tulisan jadi tebal*/
+    font-size: 20px; /*atur ukuran teks*/
+    font-family: "Comic Sans MS", sans-serif;
     cursor: pointer; /*ubah bentuk kursoe saat diarahkan ke tombol*/
 }
 
@@ -68,6 +68,7 @@ header p {
 #makeup-screen h2 {
     margin: 0;/*hilangkan jarak bawaan*/
     color: #F48FB1; /*kasi warna pink ke judul*/
+    font-family: 'Inter', sans-serif;
     font-size: 30px; /*atur ukuran teks*/
 }
 
@@ -285,7 +286,11 @@ header p {
 
     /*atur jarak pada start screen*/
     #start-screen{
-        padding-top: 55px;
+        min-height: 844;
+        padding-top: 63px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /*atur tombol start*/
@@ -297,6 +302,7 @@ header p {
         background-color: #FBAFC8;
         font-family: 'Inter', sans-serif;
         font-size: 20;
+        margin-top: 40px;
     }
 
     /*atur ukuran karakter di cover*/
