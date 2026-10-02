@@ -267,23 +267,45 @@ header p {
 @media (max-width: 600px) {
     /*atur ukuran header*/
     header {
-        padding: 20px 15px 5px; /*atur padding header lebih kecil di hp*/
+        padding: 63px 22px 0px; /*atur padding header di hp*/
     }
     header h1 {
-        font-size: 30px; /*atur ukuran teks judul lebih kecil di hp*/
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        font-size: 36px; /*atur ukuran teks judul di hp*/
+        color: #000000;
     }
 
     header p {
-        font-size: 14px; /*atur ukuran teks deskripsi lebih kecil di hp*/
+        margin: 5px 0 0;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px; /*atur ukuran teks deskripsi di hp*/
+        color: #000000;
+    }
+
+    /*atur jarak pada start screen*/
+    #start-screen{
+        padding-top: 55px;
+    }
+
+    /*atur tombol start*/
+    #start-screen button{
+        width: 180px;
+        height: 55px;
+        padding: 0;
+        border-radius: 25px;
+        background-color: #FBAFC8;
+        font-family: 'Inter', sans-serif;
+        font-size: 20;
     }
 
     /*atur ukuran karakter di cover*/
-    #start-screen img, {
-        width: 300px; /*atur lebar gambar karakter lebih kecil di hp*/
-        max-width: 90; /* atur lebar maksimum */
+    #start-screen img {
+        width: 413px; /*atur lebar gambar karakter lebih kecil di hp*/
+        max-width: none; /* atur lebar maksimum */
     }
 
-    /*atur ukuran karakter di game
+    /*atur ukuran karakter di game*/
     #karakter-makeup,
     #karakter-hair,
     #karakter-outfit,
@@ -292,8 +314,7 @@ header p {
         max-width: 100%; /*atur lebar maksimum gambar karakter agar tidak melebihi layar hp*/
     }
 
-    /*atur jarak pada setiap screen*/
-    #start-screen,
+    /*atur jarak pada screen dalam game*/
     #makeup-screen,
     #hair-screen,
     #outfit-screen,
@@ -310,7 +331,6 @@ header p {
         font-size: 26px; /*atur ukuran teks judul lebih kecil di hp*/
     }
 
-    #start-screen button,
     #makeup-screen button,
     #hair-screen button,
     #outfit-screen button,
