@@ -60,21 +60,19 @@ header p {
 /*TAMPILAN MAKEUP SCREEN*/
 /*atur tampilan makeup screen*/
 #makeup-screen {
-    min-height: 500px; /*atur tinggi minimum makeup screen*/
-    padding: 30px 20px; /*kasi jarak dalam makeup screen*/
+    padding: 20px; /*kasi jarak dalam makeup screen*/
 }
 
 /*atur tampilan judul makeup screen*/
 #makeup-screen h2 {
     margin: 0;/*hilangkan jarak bawaan*/
     color: #F48FB1; /*kasi warna pink ke judul*/
-    font-family: 'Inter', sans-serif;
     font-size: 30px; /*atur ukuran teks*/
 }
 
 /*atur tulisan step 1 of 3*/
 #makeup-screen p {
-    margin: 8px 0 20px; /*kasi jarak atas dan bawah*/
+    margin: 8px; /*kasi jarak atas*/
     font-size: 14px; /*atur ukuran teks*/
     color: #777; /*kasi warna abu-abu ke teks*/
 }
@@ -84,12 +82,12 @@ header p {
     width: 250px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
-    margin: 0 auto 20px; /*atur jarak atas dan bawah gambar*/
+    margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
 }
 
 /*atur judul makeup*/
 #makeup-screen h3 {
-    margin: 0 0 15px; /*kasi jarak bawah*/
+    margin: 0; /*kasi jarak bawah*/
     font-size: 20px; /*atur ukuran teks*/
     color: #F48FB1; /*kasi warna pink ke judul*/
 }
@@ -109,8 +107,7 @@ header p {
 /*TAMPILAN HAIR SCREEN*/
 /*atur tampilan hair screen*/
 #hair-screen {
-    min-height: 500px; /*atur tinggi minimum hair style screen*/
-    padding: 30px 20px; /*kasi jarak dalam hair style screen*/
+    padding: 20px; /*kasi jarak dalam hair style screen*/
 }
 
 /*atur tampilan judul hair screen*/
@@ -122,7 +119,7 @@ header p {
 
 /*atur tulisan step 1 of 3*/
 #hair-screen p {
-    margin: 8px 0 20px; /*kasi jarak atas dan bawah*/
+    margin: 8px; /*kasi jarak atas dan bawah*/
     font-size: 14px; /*atur ukuran teks*/
     color: #777; /*kasi warna abu-abu ke teks*/
 }
@@ -132,12 +129,12 @@ header p {
     width: 250px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
-    margin: 0 auto 20px; /*atur jarak atas dan bawah gambar*/
+    margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
 }
 
 /*atur judul hair*/
 #hair-screen h3 {
-    margin: 0 0 15px; /*kasi jarak bawah*/
+    margin: 0; /*hilangkan jarak bawah*/
     font-size: 20px; /*atur ukuran teks*/
     color: #F48FB1; /*kasi warna pink ke judul*/
 }
@@ -158,8 +155,7 @@ header p {
 /*TAMPILAN OUTFIT SCREEN*/
 /*atur tampilan outfit screen*/
 #outfit-screen {
-    min-height: 500px; /*atur tinggi minimum outfit screen*/
-    padding: 30px 20px; /*kasi jarak dalam outfit screen*/
+    padding: 20px; /*kasi jarak dalam outfit screen*/
 }
 
 /*atur tampilan judul outfit screen*/
@@ -171,7 +167,7 @@ header p {
 
 /*atur tulisan step 1 of 3*/
 #outfit-screen p {
-    margin: 8px 0 20px; /*kasi jarak atas dan bawah*/
+    margin: 8px; /*kasi jarak atas*/
     font-size: 14px; /*atur ukuran teks*/
     color: #777; /*kasi warna abu-abu ke teks*/
 }
@@ -181,12 +177,12 @@ header p {
     width: 250px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
-    margin: 0 auto 20px; /*atur jarak atas dan bawah gambar*/
+    margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
 }
 
 /*atur judul outfit*/
 #outfit-screen h3 {
-    margin: 0 0 15px; /*kasi jarak bawah*/
+    margin: 0; /*hilangkan jarak bawah*/
     font-size: 20px; /*atur ukuran teks*/
     color: #F48FB1; /*kasi warna pink ke judul*/
 }
@@ -206,8 +202,7 @@ header p {
 /*TAMPILAN RESULT SCREEN*/
 /*atur tampilan result screen*/
 #result-screen {
-    min-height: 500px; /*atur tinggi minimum result screen*/
-    padding: 30px 20px; /*kasi jarak dalam result screen*/
+    padding: 20px; /*kasi jarak dalam result screen*/
 }
 
 /*atur tampilan judul makeup screen*/
@@ -219,7 +214,7 @@ header p {
 
 /*atur tulisan step 1 of 3*/
 #result-screen p {
-    margin: 8px 0 20px; /*kasi jarak atas dan bawah*/
+    margin: 8px; /*kasi jarak atas*/
     font-size: 14px; /*atur ukuran teks*/
     color: #777; /*kasi warna abu-abu ke teks*/
 }
@@ -229,12 +224,12 @@ header p {
     width: 250px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
-    margin: 0 auto 20px; /*atur jarak atas dan bawah gambar*/
+    margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
 }
 
 /*atur judul makeup*/
 #result-screen h3 {
-    margin: 0 0 15px; /*kasi jarak bawah*/
+    margin: 0; /*kasi jarak bawah*/
     font-size: 20px; /*atur ukuran teks*/
     color: #F48FB1; /*kasi warna pink ke judul*/
 }
@@ -260,8 +255,14 @@ header p {
 #result-screen button:hover {
     background-color: #F06292; /*ubah warna tombol saat di hover*/
     transform: scale(1.05); /*buat tombol sedikit membesar saat di hover*/
-    transition: all 0.3s /*buat efek transisi halus saat di hover*/
 }
+
+button {
+    transition: all 0.3s; /*buat efek transisi halus saat di hover*/
+}
+
+
+
 
 /* RESPONSIVE */
 /* atur tampilan buat di hp*/
@@ -286,7 +287,7 @@ header p {
 
     /*atur jarak pada start screen*/
     #start-screen{
-        min-height: 844;
+        min-height: 844px;
         padding-top: 63px;
         display: flex;
         flex-direction: column;
@@ -301,7 +302,7 @@ header p {
         border-radius: 25px;
         background-color: #FBAFC8;
         font-family: 'Inter', sans-serif;
-        font-size: 20;
+        font-size: 20px;
         margin-top: 40px;
     }
 
