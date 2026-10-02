@@ -26,11 +26,21 @@ startButton.addEventListener("click", function() {
     header.style.display = "none";
     // tampilkan makeup screen
     makeupScreen.style.display = "block";
+    //jalankan animasi saat masuk makeup screen
+    animateScreen(makeupScreen);
 });
 
 // menyimpan pilihan makeup
 let selectedMakeup = "";
 let selectedHair = "";
+
+//Membuat efek animasi saat screen ditampilkan
+function animateScreen(screen) {
+    screen.classList.remove("screen-animate");
+    // ulang animasi tiap screen
+    void screen.offsetWidth;
+    screen.classList.add("screen-animate");
+}
 
 //BAGIAN MAKEUP SOFT PINK
 // ambil tombol soft pink
@@ -48,6 +58,8 @@ softPinkButton.addEventListener("click", function() {
     hairScreen.style.display = "block";
     // bawa tampilan soft pink ke hair screen
     document.getElementById("karakter-hair").src = "softpink.png";
+    //jalankan animasi saat masuk hair screen
+    animateScreen(hairScreen);
 });
 
 
@@ -67,6 +79,8 @@ softRedGlamButton.addEventListener("click", function() {
     hairScreen.style.display = "block";
     // bawa tampilan soft red glam ke hair screen
     document.getElementById("karakter-hair").src = "soft glam.png";
+    //jalankan animasi saat masuk hair screen
+    animateScreen(hairScreen);
 });
 
 //BAGIAN HAIR DOWN
@@ -86,7 +100,9 @@ hairDownButton.addEventListener("click", function() {
         // tampilkan outfit screen
         outfitScreen.style.display = "block";
         // bawa tampilan soft pink dan hair down ke outfit screen
-        document.getElementById("karakter-outfit").src = "softpink, long.png";    
+        document.getElementById("karakter-outfit").src = "softpink, long.png";
+        //jalankan animasi saat masuk outfit screen
+        animateScreen(outfitScreen); 
     } else {
         //ubah tampilan karakter sesuai pilihan hair dan makeup
         document.getElementById("karakter-outfit").src = "softglam, long.png";
@@ -98,6 +114,8 @@ hairDownButton.addEventListener("click", function() {
         outfitScreen.style.display = "block";
         // bawa tampilan soft red glam dan hair down ke outfit screen
         document.getElementById("karakter-outfit").src = "softglam, long.png";
+        //jalankan animasi saat masuk outfit screen
+        animateScreen(outfitScreen);
     }
 });
 
@@ -119,7 +137,9 @@ highBunButton.addEventListener("click", function() {
         // tampilkan outfit screen
         outfitScreen.style.display = "block";
         // bawa tampilan soft pink dan high bun ke outfit screen
-        document.getElementById("karakter-outfit").src = "softpink, short.png";    
+        document.getElementById("karakter-outfit").src = "softpink, short.png";  
+        //jalankan animasi saat masuk outfit screen
+        animateScreen(outfitScreen);  
     } else {
         //ubah tampilan karakter sesuai pilihan hair dan makeup
         document.getElementById("karakter-outfit").src = "softglam, short.png";
@@ -131,6 +151,8 @@ highBunButton.addEventListener("click", function() {
         outfitScreen.style.display = "block";
         // bawa tampilan soft red glam dan high bun ke outfit screen
         document.getElementById("karakter-outfit").src = "softglam, short.png";
+        //jalankan animasi saat masuk outfit screen
+        animateScreen(outfitScreen);
     }
 });
 
@@ -167,6 +189,8 @@ pinkOutfitButton.addEventListener("click", function() {
     resultScreen.style.display = "block";
     // bawa tampilan karakter ke result screen
     document.getElementById("karakter-result").src = document.getElementById("karakter-outfit").src;
+    //jalankan animasi saat masuk result screen
+    animateScreen(resultScreen);
 }); 
 
 // BAGIAN RED OUTFIT
@@ -202,6 +226,8 @@ redOutfitButton.addEventListener("click", function() {
     resultScreen.style.display = "block";
     // bawa tampilan karakter ke result screen
     document.getElementById("karakter-result").src = document.getElementById("karakter-outfit").src;
+    //jalankan animasi saat masuk result screen
+    animateScreen(resultScreen);
 });
 
 // BAGIAN RESTART

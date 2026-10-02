@@ -126,7 +126,7 @@ header p {
 
 /*atur tampilan gambar karakter pada hair screen*/
 #karakter-hair {
-    width: 250px; /*atur lebar gambar karakter*/
+    width: 240px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
     margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
@@ -174,7 +174,7 @@ header p {
 
 /*atur tampilan gambar karakter pada outfit screen*/
 #karakter-outfit {
-    width: 250px; /*atur lebar gambar karakter*/
+    width: 230px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
     margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
@@ -262,7 +262,23 @@ button {
 }
 
 
+/* BAGIAN EFEK PADA WEB */
+.screen-animate {
+    animation: fadeIn 1s ease;
+}
 
+/* Mengatur gerakan animasi fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 /* RESPONSIVE */
 /* atur tampilan buat di hp*/
