@@ -234,3 +234,4 @@ playAgainButton.addEventListener("click", function() {
     document.getElementById("karakter-makeup").src = "base.png";
 });
 
+
