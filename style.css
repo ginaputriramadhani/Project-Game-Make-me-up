@@ -362,3 +362,21 @@ button {
         margin: 5px 3px; /*atur margin tombol lebih kecil di hp*/
     }
 }
+
+/* PROGRESS INDICATOR */
+/* mengatur tampilan progress indicator */
+.progress {
+    display: flex; /* menggunakan flexbox untuk mengatur posisi */
+    justify-content: center; /* membuat progress berada di tengah */
+    align-items: center; /* membuat semua bagian sejajar */
+    gap: 8px; /* memberi jarak antar bagian progress */
+    margin: 10px 0 20px; /* mengatur jarak atas dan bawah */
+    color: #F8BBD0; /* memberi warna pink muda */
+    font-size: 14px; /* mengatur ukuran simbol */
+}
+
+/* mengatur tampilan tahap yang sedang aktif */
+.progress .active {
+    color: #F48FB1; /* memberi warna pink pada tahap aktif */
+    font-size: 18px; /* membuat titik aktif sedikit lebih besar */
+}
