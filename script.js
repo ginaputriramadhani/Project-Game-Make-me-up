@@ -138,8 +138,8 @@ pilihanMakeup.forEach(function(makeup)
     }
 });
 
-// fungsi untuk mencari data makeup
-function getMakeup(id) {
+// buat fungsi arrow untuk mencari data makeup
+const getMakeup = (id) => {
     for (let makeup of pilihanMakeup) {
         if(makeup.id === id){
             return makeup;
