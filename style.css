@@ -7,8 +7,7 @@
 body {
     margin: 0; /*menghilangkan jarak bawaan browser*/
     font-family: 'Inter', sans-serif; /*pake font Inter*/
-    background-color: #FFF5F7;/*kasi warna pink muda ke background*/
-    color: #333; /* atur warna teks*/
+    background: linear-gradient(135deg, #FFF5F7, #F8D7E2, #FFF5F7);
     text-align: center;/* atur teks agar rata tengah*/
 }
 
@@ -21,6 +20,8 @@ header h1 {
     margin: 0;
     font-size: 36px;
     font-family: "Trebuchet MS", sans-serif;
+    color: #F48FB1; 
+    text-shadow: 0 2px 4px rgba(244, 143, 177, 0.2);
 }
 
 header p {
@@ -43,11 +44,13 @@ header p {
 #start-screen img {
     width: 420px;
     height: auto; /*atur tinggi gambar*/
+    filter: drop-shadow(0 8px 8px rgba(0,0, 0, 0.8));
 }
 
 /*atur tampilan tombol start*/
 #start-screen button {
     padding: 12px 50px; /*kasi ruang dalam tombol*/
+    margin-bottom: 30px;
     border: none; /*hilangkan garis tepi tombol*/
     border-radius: 25px; /* buat sudut tombol agak membulat*/
     background-color: #FBAFC8; /* kasi warna pink pd tombol*/
@@ -55,6 +58,7 @@ header p {
     font-size: 20px; /*atur ukuran teks*/
     font-family: "Comic Sans MS", sans-serif;
     cursor: pointer; /*ubah bentuk kursoe saat diarahkan ke tombol*/
+    box-shadow: 0 4px 10px rgba(244, 143, 177, 0.25);
 }
 
 /*TAMPILAN MAKEUP SCREEN*/
@@ -283,7 +287,7 @@ button {
 /*TAMPILAN LOADING SCREEN*/
 /*mengatur tampilan loading screen*/
 #loading-screen {
-    min-height: 500px;
+    min-height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -323,7 +327,8 @@ button {
         margin: 0;
         font-family: 'Inter', sans-serif;
         font-size: 36px; /*atur ukuran teks judul di hp*/
-        color: #000000;
+        color: #F48FB1; 
+        text-shadow: 0 2px 4px rgba(244, 143, 177, 0.2);
     }
 
     header p {
