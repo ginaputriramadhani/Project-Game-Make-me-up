@@ -280,6 +280,38 @@ button {
     }
 }
 
+/*TAMPILAN LOADING SCREEN*/
+/*mengatur tampilan loading screen*/
+#loading-screen {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*mengatur tampilan judul loading*/
+#loading-screen h2 {
+    margin: 0;
+    color: #F48FB1;
+    font-size: 36px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/*mengatur tampilan teks loading*/
+#loading-screen p {
+    margin: 8px 0 20px;
+    font-size: 16px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/*mengatur tampilan titik loading*/
+.loading-dots {
+    font-size: 18px;
+    color: #F48FB1;
+}
+
+
 /* RESPONSIVE */
 /* atur tampilan buat di hp*/
 @media (max-width: 600px) {
