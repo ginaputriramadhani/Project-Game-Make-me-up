@@ -422,3 +422,53 @@ button {
     color: #F48FB1; /* memberi warna pink pada tahap aktif */
     font-size: 18px; /* membuat titik aktif sedikit lebih besar */
 }
+
+/* mengatur tampilan kumpulan dekorasi sparkle */
+.result-sparkles {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 5px 0;
+    color: #F48FB1;
+    font-size: 22px;
+}
+
+/* memberikan animasi pada setiap dekorasi sparkle */
+.result-sparkles span {
+    animation: sparkle 1.5s ease-in-out infinite;
+}
+
+/* memberi jeda pada sparkle kedua */
+.result-sparkles span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+/* memberi jeda pada simbol hati */
+.result-sparkles span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+/* memberi jeda pada sparkle ketiga */
+.result-sparkles span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+/* memberi jeda pada sparkle keempat */
+.result-sparkles span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+/* mengatur animasi sparkle agar membesar dan mengecil */
+@keyframes sparkle {
+    /* kondisi awal dan akhir animasi */
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(0.8);
+    }
+
+    /* kondisi saat sparkle terlihat paling jelas */
+    50% {
+        opacity: 1;
+        transform: scale(1.3);
+    }
+}

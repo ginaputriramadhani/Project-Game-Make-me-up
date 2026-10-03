@@ -116,7 +116,7 @@ startButton.addEventListener("click", function() {
         makeupScreen.style.display = "block";
         //jalankan animasi saat masuk makeup screen
         animateScreen(makeupScreen);
-    }, 1500);
+    }, 2000);
 });
 
 // menyimpan pilihan makeup
