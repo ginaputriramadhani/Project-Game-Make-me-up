@@ -4,6 +4,7 @@ const startButton = document.getElementById("start-button");
 // ambil setiap screen dari HTML
 const header = document.querySelector("header");
 const startScreen = document.getElementById("start-screen");
+const loadingScreen = document.getElementById("loading-screen");
 const makeupScreen = document.getElementById("makeup-screen");
 const hairScreen = document.getElementById("hair-screen");
 const outfitScreen = document.getElementById("outfit-screen");
@@ -92,6 +93,7 @@ console.log(testLook);
 
 // menampilkan start screen saat website dibuka
 startScreen.style.display = "flex";
+loadingScreen.style.display = "none";
 
 // sembunyikan semua screen lainnya saat website dibuka
 makeupScreen.style.display = "none";
@@ -105,10 +107,16 @@ startButton.addEventListener("click", function() {
     startScreen.style.display = "none";
     // sembunyikan header
     header.style.display = "none";
-    // tampilkan makeup screen
-    makeupScreen.style.display = "block";
-    //jalankan animasi saat masuk makeup screen
-    animateScreen(makeupScreen);
+    //tampilkan loading screen
+    loadingScreen.style.display = "flex";
+    //tunggu sebelum masuk hlaman makeup
+    setTimeout(function(){
+        loadingScreen.style.display = "none";
+        // tampilkan makeup screen
+        makeupScreen.style.display = "block";
+        //jalankan animasi saat masuk makeup screen
+        animateScreen(makeupScreen);
+    }, 1500);
 });
 
 // menyimpan pilihan makeup
