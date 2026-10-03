@@ -353,6 +353,9 @@ const homeButton = document.getElementById("home-button")
 
 //jalankan fungsi saat tombol home diklik
 homeButton.addEventListener("click", function() {
+    //nambahin suara pop
+    clickSound.currentTime = 0;
+    clickSound.play();
     // sembunyikan result screen
     resultScreen.style.display = "none";
     // tampilkan start screen
@@ -360,9 +363,8 @@ homeButton.addEventListener("click", function() {
     //tampilkan header
     header.style.display = "block";
     //nambahin suara pop
-    yeaySound.currentTime = 0;
-    yeaySound.play();
-})
+
+});
 
 //ambil tombol play again
 const playAgainButton = document.getElementById("play-again")
