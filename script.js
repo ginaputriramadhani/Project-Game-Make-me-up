@@ -1,4 +1,8 @@
-//buat suara audio untuk suara klik
+//buat suara audio untuk suara pop
+const clickSound = new Audio("pop sound.mp3");
+//untuk suara final look
+const yeaySound = new Audio("sound yeay.mpeg");
+
 // ambil elemen tombol start dari HTML
 const startButton = document.getElementById("start-button");
 
@@ -104,6 +108,9 @@ resultScreen.style.display = "none";
 
 // tambahkan event listener pada tombol start
 startButton.addEventListener("click", function() {
+    //nambahin suara pop
+    clickSound.currentTime = 0;
+    clickSound.play();
     // sembunyikan start screen
     startScreen.style.display = "none";
     // sembunyikan header
@@ -163,6 +170,9 @@ console.log(pinkMakeup)
 
 // jalankan fungsi saat tombol soft pink diklik
 softPinkButton.addEventListener("click", function() {
+    //nambahin suara pop
+    clickSound.currentTime = 0;
+    clickSound.play();
     // simpan pilihan makeup
     selectedMakeup = "soft-pink";
     // mengambil data makeup dari array
@@ -192,6 +202,9 @@ pilihanMakeup.forEach(function(makeup)
 
 // jalankan fungsi saat tombol soft red glam diklik
 softRedGlamButton.addEventListener("click", function() {
+    //nambahin suara pop
+    clickSound.currentTime = 0;
+    clickSound.play();
     // simpan pilihan makeup
     selectedMakeup = "soft-red-glam";
     // mengambil data makeup dari array
@@ -214,6 +227,9 @@ const hairDownButton = document.querySelector('[data-hair="long"]');
 
 // jalankan fungsi saat tombol hair down diklik
 hairDownButton.addEventListener("click", function() {
+    //nambahin suara pop
+    clickSound.currentTime = 0;
+    clickSound.play();
     // cek makeup yang  sebelumnya dipilih
     if (selectedMakeup === "soft-pink") {
         //ubah tampilan karakter sesuai pilihan hair dan makeup
@@ -251,6 +267,9 @@ const highBunButton = document.querySelector('[data-hair="short"]');
 
 // jalankan fungsi saat tombol high bun diklik
 highBunButton.addEventListener("click", function() {
+    //nambahin suara pop
+    clickSound.currentTime = 0;
+    clickSound.play();
     // cek makeup yang  sebelumnya dipilih
     if (selectedMakeup === "soft-pink") {
         //ubah tampilan karakter sesuai pilihan hair dan makeup
@@ -295,6 +314,10 @@ pinkOutfitButton.addEventListener("click", function() {
     outfitScreen.style.display = "none";
     // tampilkan result screen
     resultScreen.style.display = "block";
+
+    //nambahin suara pop
+    yeaySound.currentTime = 0;
+    yeaySound.play();
     // bawa tampilan karakter ke result screen
     document.getElementById("karakter-result").src = document.getElementById("karakter-outfit").src;
     //jalankan animasi saat masuk result screen
@@ -307,6 +330,9 @@ const redOutfitButton = document.querySelector('[data-outfit="red"]');
 
 // jalankan fungsi saat tombol red outfit diklik
 redOutfitButton.addEventListener("click", function() {
+    //nambahin suara pop
+    yeaySound.currentTime = 0;
+    yeaySound.play();
     // mencari hasil akhir berdasarkan pilihan makeup, hair, dan outfit
     const finalLook = getFinalLook(selectedMakeup, selectedHair, "red");
     //menampilkan gambar hasil yang ditemukan
@@ -333,6 +359,9 @@ homeButton.addEventListener("click", function() {
     startScreen.style.display = "flex";
     //tampilkan header
     header.style.display = "block";
+    //nambahin suara pop
+    yeaySound.currentTime = 0;
+    yeaySound.play();
 })
 
 //ambil tombol play again
@@ -340,6 +369,9 @@ const playAgainButton = document.getElementById("play-again")
 
 //jalankan fungsi saat tombol play again diklik
 playAgainButton.addEventListener("click", function() {
+    //nambahin suara pop
+    clickSound.currentTime = 0;
+    clickSound.play();
     // kosongkan pilihan makeup dan hair
     selectedMakeup = "";
     selectedHair = "";
