@@ -3,31 +3,31 @@ Make Me Up! adalah game sederhana bertema makeup dan fashion. Di dalam game ini,
 
 Fitur
 Beberapa fitur yang ada di website ini:
-Halaman awal dengan tombol START.
-Loading screen sebelum masuk ke permainan.
-Pilihan makeup:
+- Halaman awal dengan tombol START.
+- Loading screen sebelum masuk ke permainan.
+- Pilihan makeup:
 Soft Pink
 Soft Red Glam
-Pilihan gaya rambut:
+- Pilihan gaya rambut:
 Hair Down
 High Bun
-Pilihan outfit:
+- Pilihan outfit:
 Pink Outfit
 Red Outfit
-Hasil karakter berubah sesuai kombinasi pilihan.
-Tombol Play Again untuk bermain kembali.
-Tombol Home untuk kembali ke halaman awal.
-Animasi saat berpindah halaman.
-Efek hover pada tombol.
-Sound effect saat tombol diklik.
-Sound effect saat hasil akhir muncul.
-Tampilan bisa menyesuaikan desktop dan mobile.
+- Hasil karakter berubah sesuai kombinasi pilihan.
+- Tombol Play Again untuk bermain kembali.
+- Tombol Home untuk kembali ke halaman awal.
+- Animasi saat berpindah halaman.
+- Efek hover pada tombol.
+- Sound effect saat tombol diklik.
+- Sound effect saat hasil akhir muncul.
+- Tampilan bisa menyesuaikan desktop dan mobile.
 
 Teknologi yang Digunakan
 Project ini dibuat menggunakan:
-HTML untuk membuat struktur halaman.
-CSS untuk mengatur tampilan, warna, layout, animasi, dan responsive design.
-JavaScript untuk mengatur interaksi dan proses pilihan dalam game.
+- HTML untuk membuat struktur halaman.
+- CSS untuk mengatur tampilan, warna, layout, animasi, dan responsive design.
+- JavaScript untuk mengatur interaksi dan proses pilihan dalam game.
 
 Konsep JavaScript yang Digunakan
 Beberapa materi JavaScript yang diterapkan dalam project ini antara lain:
