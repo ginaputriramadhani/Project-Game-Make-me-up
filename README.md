@@ -94,12 +94,13 @@ Untuk menjalankan game:
 6. Setelah selesai, hasil look akan ditampilkan pada halaman Result.
 
 GitHub Repository
-Link repository akan ditambahkan setelah project selesai di-upload ke GitHub.
-Link: [GitHub Repository]
+Link: [GitHub Repository](https://github.com/ginaputriramadhani/Project-Game-Make-me-up)
 
 GitHub Pages
-Link website yang sudah online melalui GitHub Pages akan ditambahkan setelah proses deployment selesai.
-Link: [GitHub Pages]
+Link: [GitHub Pages](https://ginaputriramadhani.github.io/Project-Game-Make-me-up/)
+
+Figma
+Link : [Figma - PROJEK GAME](https://www.figma.com/design/2vD7tLyYT9RdHHcDBjNbjx/PROJEK-GAME?node-id=0-1&t=FRvUAHZd127Se6EO-1)
 
 Tentang Project
 Project ini dibuat untuk tugas Pemrograman Web. Melalui project ini, saya menerapkan materi HTML, CSS, dan JavaScript yang sudah dipelajari ke dalam sebuah game sederhana yang memiliki beberapa pilihan dan hasil yang berbeda sesuai pilihan pengguna.
