@@ -1,3 +1,4 @@
+//buat suara audio untuk suara klik
 // ambil elemen tombol start dari HTML
 const startButton = document.getElementById("start-button");
 

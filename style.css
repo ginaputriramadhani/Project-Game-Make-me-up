@@ -8,6 +8,7 @@ body {
     margin: 0; /*menghilangkan jarak bawaan browser*/
     font-family: 'Inter', sans-serif; /*pake font Inter*/
     background: linear-gradient(135deg, #FFF5F7, #F8D7E2, #FFF5F7);
+    background-attachment: fixed;
     text-align: center;/* atur teks agar rata tengah*/
 }
 
@@ -125,14 +126,14 @@ header p {
 
 /*atur tulisan step 1 of 3*/
 #hair-screen p {
-    margin: 8px; /*kasi jarak atas dan bawah*/
+    margin: 5px; /*kasi jarak atas*/
     font-size: 14px; /*atur ukuran teks*/
     color: #777; /*kasi warna abu-abu ke teks*/
 }
 
 /*atur tampilan gambar karakter pada hair screen*/
 #karakter-hair {
-    width: 240px; /*atur lebar gambar karakter*/
+    width: 230px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
     margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
@@ -174,17 +175,17 @@ header p {
 
 /*atur tulisan step 1 of 3*/
 #outfit-screen p {
-    margin: 8px; /*kasi jarak atas*/
+    margin: 5px; /*kasi jarak atas*/
     font-size: 14px; /*atur ukuran teks*/
     color: #777; /*kasi warna abu-abu ke teks*/
 }
 
 /*atur tampilan gambar karakter pada outfit screen*/
 #karakter-outfit {
-    width: 230px; /*atur lebar gambar karakter*/
+    width: 220px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
-    margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
+    margin: 5px auto 5px; /*atur jarak atas dan bawah gambar*/
 }
 
 /*atur judul outfit*/
@@ -229,18 +230,12 @@ header p {
 
 /*atur tampilan gambar karakter pada makeup screen*/
 #karakter-result {
-    width: 250px; /*atur lebar gambar karakter*/
+    width: 240px; /*atur lebar gambar karakter*/
     height: auto; /*atur tinggi otomatis*/
     display: block; /*atur gambar agar menjadi blok*/
     margin: 5px auto 10px; /*atur jarak atas dan bawah gambar*/
 }
 
-/*atur judul makeup*/
-#result-screen h3 {
-    margin: 0; /*kasi jarak bawah*/
-    font-size: 20px; /*atur ukuran teks*/
-    color: #F48FB1; /*kasi warna pink ke judul*/
-}
 
 /*atur tampilan tombol pilihan makeup*/
 #result-screen button {
