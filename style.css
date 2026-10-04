@@ -52,7 +52,7 @@ header p {
 /*atur tampilan tombol start*/
 #start-screen button {
     padding: 12px 50px; /*kasi ruang dalam tombol*/
-    margin-bottom: 30px;
+    margin-bottom: 30px; /*beri jarak dibagian bawah elemen*/
     border: none; /*hilangkan garis tepi tombol*/
     border-radius: 25px; /* buat sudut tombol agak membulat*/
     background-color: #FBAFC8; /* kasi warna pink pd tombol*/
@@ -288,32 +288,32 @@ button {
 /*TAMPILAN LOADING SCREEN*/
 /*mengatur tampilan loading screen*/
 #loading-screen {
-    min-height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    min-height: 700px; /*menentukan tinggi minimum screen*/
+    display: flex; /*menggunakan flexbox untuk mengatur posisi elemen*/
+    flex-direction: column; /*atur elemen agar tersusun secara vertikal*/
+    align-items: center; /*atur elemen ditengah secara horizontal*/
+    justify-content: center;/*menmpakan elemen ditengah secara vertikal*/
 }
 
 /*mengatur tampilan judul loading*/
 #loading-screen h2 {
-    margin: 0;
-    color: #F48FB1;
-    font-size: 36px;
-    font-family: "Trebuchet MS", sans-serif;
+    margin: 0; /*menghilangkan jarak luar pada judul*/
+    color: #F48FB1; /*beri warna pink pada judul*/
+    font-size: 36px; /*atur ukuran teks judul*/
+    font-family: "Trebuchet MS", sans-serif; /*atur jenis font*/
 }
 
 /*mengatur tampilan teks loading*/
 #loading-screen p {
-    margin: 8px 0 20px;
-    font-size: 16px;
-    font-family: "Comic Sans MS", sans-serif;
+    margin: 8px 0 20px; /*atur jarak atas, samping, dan bawah teks*/
+    font-size: 16px;/*atur ukuran teks p*/
+    font-family: "Comic Sans MS", sans-serif;/*atur jenis font*/
 }
 
 /*mengatur tampilan titik loading*/
 .loading-dots {
-    font-size: 18px;
-    color: #F48FB1;
+    font-size: 18px; /*atur ukuran titik loading*/
+    color: #F48FB1; /*beri warna pink pada titik loading*/
 }
 
 
