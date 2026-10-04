@@ -1,6 +1,6 @@
-//buat suara audio untuk suara pop
+//buat suara audio untuk suara pop saat tombol diklik
 const clickSound = new Audio("pop sound.mp3");
-//untuk suara final look
+//buat suara audio untuk suara saat final look ditampilkan
 const yeaySound = new Audio("sound yeay.mpeg");
 
 // ambil elemen tombol start dari HTML
@@ -15,7 +15,7 @@ const hairScreen = document.getElementById("hair-screen");
 const outfitScreen = document.getElementById("outfit-screen");
 const resultScreen = document.getElementById("result-screen");
 
-//menyimpan data pilihan makeup
+//menyimpan data pilihan makeup dan nama file gambar masing-masing
 const pilihanMakeup = [
     {    
         id: "soft-pink",
@@ -25,7 +25,7 @@ const pilihanMakeup = [
         image: "soft glam.png"}
 ]
 
-//menyimpan semua kombinasi makeup, hair, dan outfit
+//menyimpan semua kombinasi makeup, hair, dan outfit beserta gambar hasilnya
 const pilihanTampilan = [
     {
         makeup:"soft-pink",
@@ -86,12 +86,13 @@ function getFinalLook(makeup, hair, outfit) {
             look.hair === hair &&
             look.outfit === outfit
         ) {
+            // mengembalikan data tampilan jika semua pilihan sesuai
             return look;
         }
     }
 }
 
-//coba mencari salah satu kombinasi
+//uji fungsi getFinalLook dengan mencari salah satu kombinasi
 const testLook = getFinalLook("soft-pink", "long", "red");
 //menampilkan hasil ke console
 console.log(testLook);
@@ -100,7 +101,7 @@ console.log(testLook);
 startScreen.style.display = "flex";
 loadingScreen.style.display = "none";
 
-// sembunyikan semua screen lainnya saat website dibuka
+// menyembunyikan semua screen lainnya saat website dibuka
 makeupScreen.style.display = "none";
 hairScreen.style.display = "none";
 outfitScreen.style.display = "none";
@@ -108,7 +109,7 @@ resultScreen.style.display = "none";
 
 // tambahkan event listener pada tombol start
 startButton.addEventListener("click", function() {
-    //nambahin suara pop
+    //nambahin suara pop saat di klik
     clickSound.currentTime = 0;
     clickSound.play();
     // sembunyikan start screen
@@ -134,7 +135,7 @@ let selectedHair = "";
 //Membuat efek animasi saat screen ditampilkan
 function animateScreen(screen) {
     screen.classList.remove("screen-animate");
-    // ulang animasi tiap screen
+    // ulang animasi agar tetap jalan tiap screen dibuka
     void screen.offsetWidth;
     screen.classList.add("screen-animate");
 }

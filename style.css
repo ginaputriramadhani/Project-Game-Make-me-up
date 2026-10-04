@@ -43,8 +43,9 @@ header p {
 
 /*atur ukuran karakter pada start screen*/
 #start-screen img {
-    width: 420px;
+    width: 420px; /*atur ukuran karakter*/
     height: auto; /*atur tinggi gambar*/
+    /*beri filter bayangan ke gambar karakter*/
     filter: drop-shadow(0 8px 8px rgba(0,0, 0, 0.8));
 }
 
