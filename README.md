@@ -81,7 +81,7 @@ PROJEK PEMWEB INDIVIDU/
 ├── softglam, long, red outfit.png
 ├── softglam, short, red outfit.png
 ├── cover game.png
-├── sound klik.mpeg
+├── pop sound.mp3
 └── sound yeay.mpeg
 
 Cara Menjalankan
